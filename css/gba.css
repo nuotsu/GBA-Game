@@ -1,0 +1,72 @@
+/* Common */
+	*{
+		margin: 0;}
+	body{
+		background-color: #000;}
+
+/* Options */
+	p.txt_large{
+		font-size: 32px;
+		margin: 5px;}
+	div.options{
+		width: 100%;
+		position: fixed;
+		bottom: 0;}
+	#switcher{
+		float: left;}
+	.floatR{
+		float: right;}
+
+/* GBA.HTML */
+	div.gba_bg{
+		z-index: 1;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		width: 650px;
+		height: 424px;}
+	img.gba_bg, img.gba_overlay{
+		pointer-events: none;
+		z-index: 1;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		width: 650px;
+		height: 424px;}
+	img.gba_overlay{
+		mix-blend-mode: multiply;
+		opacity: 0.6;}
+	img.gba_light{
+		z-index: 2;}
+
+	iframe.gba{
+		border: none;
+		width: 240px;
+		height: 160px;
+		transform:
+			translate(207px,108px)
+			skew(-11deg,1.5deg)
+			rotate(20deg)
+			rotateX(10deg)
+			rotateY(-15deg)
+			scale(1.17,0.98);
+		opacity: 1;}
+
+/* Screen.HTML */
+	#resizer{cursor: pointer;}
+	#screen{
+		border: none;
+		width: 240px;
+		height: 160px;
+		position: fixed;
+		top: 50%;
+		left: 50%;}
+	iframe.screen{
+		transform: translate(-50%, -50%);
+		transition: transform 0.5s ease-in-out;}
+	iframe.resizeScreen{
+		transform: translate(-50%, -50%) scale(2,2);
+		transition: transform 0.5s ease-in-out;}
+

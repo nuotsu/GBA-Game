@@ -1,0 +1,121 @@
+div.bg_battle{
+	background-image: url('../images/battlefield.png');
+	background-size: 240px 160px;
+	background-repeat: no-repeat;}
+
+div.foe{
+	width: 128px;
+	height: 64px;
+	position: fixed;
+	top: 22px;
+	left: 112px;}
+div.foe2{
+	background-image: url('../images/foe-dark-2.png');
+	background-size: 128px 64px;
+	background-repeat: no-repeat;
+	-webkit-animation: foeSlide 2s linear, foeDark 0.2s linear forwards 2s;
+	animation: foeSlide 2s linear, foeDark 0.2s linear forwards 2s;}
+	/* foeSlide */
+		@-webkit-keyframes foeSlide{
+			from{
+				left: -128px;
+				opacity: 1;}
+			to{
+				left: 112px;
+				opacity: 1;} }
+	/* foeDark */
+		@-webkit-keyframes foeDark{
+			to{
+				left: 112px;
+				opacity: 1;
+				background-image: url('../images/foe-2.png');} }
+
+img.self{
+	width: 128px;
+	height: 72px;
+	position: fixed;
+	top: 61px;
+	-webkit-animation: self-cSlide 2s linear;
+	animation: self-cSlide 2s linear;}
+	/* self-cSlide */
+		@-webkit-keyframes self-cSlide{
+			from{
+				left: 240px;
+				opacity: 1;}
+			to{
+				left: 0px;
+				opacity: 1;} }
+		@keyframes self-cSlide{
+			from{
+				left: 240px;
+				opacity: 1;}
+			to{
+				left: 0px;
+				opacity: 1;} }
+
+div.bdr_appear{
+	width: 240px;
+	height: 48px;
+	position: fixed;
+	bottom: 0;}
+
+.kf_txt-appear{
+	visibility: hidden;
+	-webkit-animation: kf_txt-appear 0s forwards;
+	-webkit-animation-delay: 2.1s;
+	animation: kf_txt-appear 0s forwards;
+	animation-delay: 2.1s;}	
+	@-webkit-keyframes kf_txt-appear{
+		to{
+			visibility: visible;} }
+	@keyframes kf_txt-appear{
+		to{
+			visibility: visible;} }
+
+/* What should you do? */
+	img.arrow_down{
+		width: 7px;
+		height: 11px;
+		margin: 0 0 0 -2px;
+		cursor: pointer;}
+	.showTxt{
+		width: 65px;}
+
+/* Options */
+	div.bdr_options{
+		width: 90px;
+		height: 34px;
+		position: fixed;
+		right: 0;
+		bottom: 0;}
+	.showOptions{
+		visibility: hidden;}
+	p.bdr_options{
+		width: 42px;}
+
+/* FIGHT */
+	#fight{
+		cursor: pointer;}
+	img.tackle{
+		width: 84px;
+		height: 56px;
+		position: fixed;
+		top: 19px;
+		left: 135px;
+		z-index: 1;}
+	.showTackle{
+		visibility: hidden;}
+	.animTackle{
+		-webkit-animation: attack 0.3s forwards;
+		animation: attack 0.3s forwards;}
+		/* attack (on tackle) */
+			@-webkit-keyframes attack{
+				0%{visibility: visible;}
+				100%{visibility: hidden;} }
+			@keyframes attack{
+				0%{visibility: visible;}
+				100%{visibility: hidden;} }
+	.animFoe-hillary{
+		background-image: url('../images/foe-faint-hillary.gif');
+		background-size: 128px 64px;
+		background-repeat: no-repeat;}

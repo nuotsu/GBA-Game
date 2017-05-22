@@ -1,0 +1,89 @@
+div.bg{
+	background-image: url('../images/starter_bg.png');
+	background-size: 240px 160px;
+	background-repeat: no-repeat;}
+
+div.pokeball{
+	width: 25px;
+	height: 63px;
+	cursor: pointer;}
+div.pokeball:hover{
+	background-image: url('../images/starter_picker.gif');}
+div.pokeball:hover div.starters{
+	visibility: visible;}
+
+/* Pokeball Null */
+	div.pb_null{
+		width: 25px;
+		height: 43px;
+		z-index: 10;}
+	div.null_1{
+		position: fixed;
+		left: 48px;
+		top: 11px;}
+	div.null_2{
+		position: fixed;
+		left: 108px;
+		top: 35px;}
+	div.null_3{
+		position: fixed;
+		left: 168px;
+		top: 11px;}
+
+/* Pokeball */
+	div.pb_1{
+		background-image: url('../images/starter_pokeball.png');
+		background-size: 25px 63px;
+		background-repeat: no-repeat;
+		position: fixed;
+		left: 48px;
+		top: 11px;}
+	div.pb_2{
+		background-image: url('../images/starter_pokeball.png');
+		background-size: 25px 63px;
+		background-repeat: no-repeat;
+		position: fixed;
+		left: 108px;
+		top: 35px;}
+	div.pb_3{
+		background-image: url('../images/starter_pokeball.png');
+		background-size: 25px 63px;
+		background-repeat: no-repeat;
+		position: fixed;
+		left: 168px;
+		top: 11px;}
+
+div.bdr_starter{
+	width: 194px;
+	height: 34px;
+	position: fixed;
+	left: 16px;
+	bottom: 0px;}
+
+/* Starter Picker */
+	p.s_txt{
+		font-size: 13px;
+		letter-spacing: -0.1px;
+		padding: 2px 1px 0 1px;
+		color: #fff;
+		text-shadow: 1px 0px #d0d0c8,
+					 0px 1px #d0d0c8,
+					 1px 1px #d0d0c8;}
+	div.starters{
+		height: 32px;
+		width: 104px;
+		background-color: rgba(0,0,0,0.5);
+		visibility: hidden;}
+	div.s_1{
+		position: fixed;
+		left: 0px;
+		top: 72px;}
+	div.s_2{
+		position: fixed;
+		left: 132px;
+		top: 80px;}
+	div.s_3{
+		position: fixed;
+		left: 60px;
+		top: 32px;}
+

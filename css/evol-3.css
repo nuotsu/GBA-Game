@@ -1,0 +1,33 @@
+/* Evol.HTML */
+	.bg_evol_x-1{
+		width: 240px;
+		height: 160px;
+		background-image: url("../images/evol_3.png");
+		background-size: 240px 160px;
+		background-repeat: no-repeat;}
+	.bg_evol_x-evol{
+		width: 240px;
+		height: 160px;
+		background-image: url("../images/evol_3.gif");
+		background-size: 240px 160px;
+		background-repeat: no-repeat;}
+
+	.startEvol{
+		cursor: pointer;}
+
+/* End.HTML */
+	p.end{
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);}
+	.fadeIn{
+		opacity: 1;
+		-webkit-animation: fadeIn 6s forwards;
+		animation: fadeIn 6s forwards;}
+		@-webkit-keyframes fadeIn{
+			0%,10%{opacity: 0;}
+			100%{opacity: 1;} }
+		@keyframes fadeIn{
+			0%,10%{opacity: 0;}
+			100%{opacity: 1;} }

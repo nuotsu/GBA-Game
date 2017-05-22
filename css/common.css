@@ -1,0 +1,70 @@
+@font-face{
+	font-family: 'Pokemon_Gen3_RS';
+		src: url('../fonts/Pokemon_Gen3_RS.ttf') format("truetype"),
+			 url('../fonts/Pokemon_Gen3_RS.eot') format("eot"),
+			 url('../fonts/Pokemon_Gen3_RS.woff') format("woff");}
+
+*{margin: 0}
+body{
+	background-color: #000;
+	font-family: Pokemon_Gen3_RS;}
+a{text-decoration: none;}
+
+
+/* p.Texts */
+	p.bd_1{
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: -0.1px;
+		padding: 10px 16px;
+		color: #f8f8f8;
+		text-shadow: 1px 0px #404878,
+					 0px 1px #404878,
+					 1px 1px #404878;}
+	p.bd_2{
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: -0.1px;
+		padding: 2px 0 0 1px;
+		color: #686668;
+		text-shadow: 1px 0px #e2ddd8,
+					 0px 1px #e2ddd8,
+					 1px 1px #e2ddd8;}
+	p.bd_yesno{
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: -0.1px;
+		color: #686668;
+		margin: 1px 0 0 0;
+		text-shadow: 1px 0px #e2ddd8,
+					 0px 1px #e2ddd8,
+					 1px 1px #e2ddd8;
+		border: 1px solid transparent;
+		border-image: url('../images/border_yesno_null.png') fill 3 round;
+		border-image-width: 1px;
+		height: 14px;}
+		p.bd_yesno:hover{
+			border: 1px solid transparent;
+			border-image: url('../images/border_yesno.png') fill 3 round;
+			border-image-width: 1px;}
+
+/* Borders */
+	div.border_1{
+		border: 8px 11px solid;
+		border-image: url('../images/border_1.png') fill 24 33 stretch;
+		border-image-width: 8px 11px;}
+	div.border_2{
+		border: 7px solid;
+		border-image: url('../images/border_2.png') fill 21 stretch;
+		border-image-width: 7px;}
+
+div.screen{
+	background-color: #000;
+	width: 240px;
+	height: 160px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;}
+

@@ -1,0 +1,122 @@
+/* s_common & s_1.HTML*/
+	div.pokeball_no-picker{
+		width: 25px;
+		height: 63px;}
+	/* Pokeball GIF*/
+		div.pb_1_gif{
+			background-image: url('../images/starter_picker.gif');
+			background-size: 25px 63px;
+			background-repeat: no-repeat;
+			position: fixed;
+			left: 48px;
+			top: 11px;}
+		div.pb_2_gif{
+			background-image: url('../images/starter_picker.gif');
+			background-size: 25px 63px;
+			background-repeat: no-repeat;
+			position: fixed;
+			left: 108px;
+			top: 35px;}
+		div.pb_3_gif{
+			background-image: url('../images/starter_picker.gif');
+			background-size: 25px 63px;
+			background-repeat: no-repeat;
+			position: fixed;
+			left: 168px;
+			top: 11px;}
+	div.bdr_yesno{
+		width: 42px;
+		height: 35px;
+		position: fixed;
+		left: 168px;
+		bottom: 55px;
+		visibility: hidden;
+		-webkit-animation: delay forwards;
+		-webkit-animation-delay: 0s;
+		animation: delay forwards;
+		animation-delay: 0s;}
+		@-webkit-keyframes delay{
+			to{
+				visibility: visible;} }
+		@keyframes delay{
+			to{
+				visibility: visible;} }
+
+	img.s_img{
+		width: 81px;
+		height: 81px;}
+	.kf_1{
+		position: fixed;
+		left: 80px;
+		top: 24px;
+		-webkit-animation: kf_1 0.25s linear;
+		animation: kf_1 0.25s linear}
+		@-webkit-keyframes kf_1{
+			from{
+				left: 20px;
+				top: 22px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+		@keyframes kf_1{
+			from{
+				left: 20px;
+				top: 22px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+
+/* s_2.HTML */
+	.kf_2{
+		position: fixed;
+		left: 80px;
+		top: 24px;
+		-webkit-animation: kf_2 0.25s linear;
+		animation: kf_2 0.25s linear}
+		@-webkit-keyframes kf_2{
+			from{
+				top: 50px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+		@keyframes kf_2{
+			from{
+				top: 50px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+	
+/* s_3.HTML */
+	.kf_3{
+		position: fixed;
+		left: 80px;
+		top: 24px;
+		-webkit-animation: kf_3 0.25s linear;
+		animation: kf_3 0.25s linear}
+		@-webkit-keyframes kf_3{
+			from{
+				left: 140px;
+				top: 22px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+		@keyframes kf_3{
+			from{
+				left: 140px;
+				top: 22px;
+				transform: scale(0,0);}
+			to{
+				left: 80px;
+				top: 24px;
+				transform: scale(1,1);} }
+
