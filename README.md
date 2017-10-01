@@ -1,4 +1,4 @@
-# GAME BOY Advance Game
+# GAME BOY ADVANCE Game
 
 https://nuotsu.github.io/GBA-Game/html/gba.html
 
